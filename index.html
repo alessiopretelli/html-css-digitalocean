@@ -3,6 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="theme/bootstrap.min.css">
     <link rel="stylesheet" href="theme/bootstrap-theme.css">
@@ -11,102 +15,196 @@
     <title>digitalocean</title>
   </head>
   <body>
-    <header>
-      <div class="header_fixed container">
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-2 col-sm-11 col-xs-11"></div>
-          <div class="col-lg-3 col-sm-1 col-xs-1"></div>
-          <div class="col-lg-offset-2 col-lg-3"></div>
-        </div>
-      </div>
+    <div class="container-fluid">
+      <header>
+            <div class="container">
+              <div class="row">
+                <div class="header_fixed">
+                <div class="col-lg-2 col-sm-2 col-xs-2">
+                  <div class="logo_">
+                    <img src="img/logo.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-offset-1 col-lg-4 col-sm-offset-9 col-sm-1 col-xs-offset-9 col-xs-1">
+                  <div class="text_hf display_allowed display_none">
+                    <ul class="links_hf">
+                      <li><a href="#">Products<i class="fas fa-chevron-circle-down"></i></a></li>
+                      <li><a href="#">Customers</a></li>
+                      <li><a href="#">Community<i class="fas fa-chevron-circle-down"></i></a></li>
+                      <li><a href="#">Pricing</a></li>
+                    </ul>
+                  </div>
+                  <a class="hamburger" href="#">
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                  </ul>
+                  </a>
+                </div>
+                <div class="col-lg-4">
+                  <div class="text_hf f_r_ display_allowed display_none">
+                    <ul class="links_hf">
+                      <li><a href="#">Docs</a></li>
+                      <li><a href="#">Support<i class="fas fa-chevron-circle-down"></i></a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#"> <div class="btn_hf">Sign Up</div> </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
 
-      <div class="jumbotron_ container">
-        <div class="row top_j">
-          <div class="col-lg-offset-1 col-lg-6 col-sm-7 col-xs-12"></div>
-          <div class="col-lg-4 col-sm-5 col-xs-12"></div>
-        </div>
-        <div class="row bottom_j text-center">
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12">
-            <div class="row logos_">
+        <main>
+          <div class="jumbotron_">
+            <div class="row top_j">
+              <div class="col-lg-offset-1 col-lg-6 col-sm-7 col-xs-12">
+                <h1 class="h1_">The simplest cloud platform for developers & teams</h1>
+                <p class="p_">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for temas and business, whether you're running one virtual machine or ten thousand.</p>
+              </div>
+              <div class="col-lg-4 col-sm-5 col-xs-12 text-center">
+                <div class="sign_up">
+                  <h4 class="h4_">Deploy your app in seconds.</h2>
+                  <h4 class="h4_ blue_">Get started now.</h2>
+                    <form>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                    </form>
+                    <a href="#"><div class="button_su_one">Create your account</div></a>
+                    <a href="#"><div class="button_su_two"> <img src="img\google-icon.png" alt=""> <span>Sign up with Google</span> </div></a>
+                </div>
+              </div>
+            </div>
+            <div class="row bottom_j text-center">
+              <div class="col-lg-12 col-sm-12 col-xs-12"> <p class="p_ margin_top">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p> </div>
+              <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="row logos_">
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img/1280px-Docker_(container_engine)_logo.svg.png" alt=""> </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img/wm_web.svg" alt=""> </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img/1200px-Slack_Technologies_Logo.svg.png" alt=""> </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img/HashiCorp_PrimaryLogo_Black.png_h_250" alt=""> </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img/HashiCorp_PrimaryLogo_Black.png_h_250" alt=""> </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-6"> <img src="img\Splunk_logo.png" alt=""> </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-xs-12"> <a class="link_to_" href="#">View customer stories  > </a> </div>
+            </div>
+          </div>
+
+          <div class="container-fluid top_section">
+            <div class="row">
+              <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                <h3 class="h3_">Deploy and scale seamlessly</h3>
+                <p class="p_ margin_bottom">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD enviroments.</p>
+              </div>
+              <div class="list_ col-lg-offset-2 col-lg-2 col-sm-offset-1 col-sm-2 col-xs-12">
+                <p class="p_">Deploy</p>
+                <p class="p_">Manage</p>
+                <p class="p_">Secure</p>
+                <p class="p_">Scale</p>
+                <p class="p_">Monitor</p>
+              </div>
+              <div class="col-lg-3 col-sm-4 col-xs-12">
+                <div class="row">
+                  <div class="fix_ col-lg-12 col-sm-12 col-xs-12">
+                    <img src="img/cluster-deploy.svg" alt="">
+                    <h4 class="h4_">Cluster deployments</h4>
+                    <p class="p_">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                  </div>
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <img src="img/one-click.svg" alt="">
+                    <h4 class="h4_">One-click apps</h4>
+                    <p class="p_">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-4 col-xs-12">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <img src="img/optimized-compute.svg" alt="">
+                    <h4 class="h4_">Optmized compute types</h4>
+                    <p class="p_">Get the compute resources you need with Standard or Optimized Droplets.</p>
+                  </div>
+                  <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <img src="img/global.svg" alt="">
+                    <h4 class="h4_">Global availibility</h4>
+                    <p class="p_">Deploy to any of our data center regions around the world.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid center_section">
+            <div class="row top_cs text-center">
+              <div class="col-lg-12 col-sm-12 col-xs-12">
+                <h3 class="h3_ margin_top">Designed for developers</h3>
+                <p class="p_ margin_bottom">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-xs-12 screenshot_">
+                <a href="#"><i class="fix_two fas fa-chevron-left gray_"></i></a>
+                <img src="img/screenshot-createdroplet" alt="">
+                <a href="#"><i class="fix_two fas fa-chevron-right"></i></a>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-xs-12">
+                <h4 class="h4_ margin_top">Create compute servers in 55 seconds or less.</h4>
+              </div>
+              <div class="col-lg-12 col-sm-12 col-xs-12 color_ margin_media">
+                <a href="#"><i class="fas fa-circle"></i></a>
+                <a href="#"><i class="far fa-circle"></i></a>
+                <a href="#"><i class="far fa-circle"></i></a>
+                <a href="#"><i class="far fa-circle"></i></a>
+              </div>
+            </div>
+            <div class="row bottom_cs">
+              <div class="col-lg-12 col-sm-12 col-xs-12 text-center"></div>
               <div class="col-lg-4 col-sm-4 col-xs-12"></div>
               <div class="col-lg-4 col-sm-4 col-xs-12"></div>
               <div class="col-lg-4 col-sm-4 col-xs-12"></div>
             </div>
           </div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-        </div>
-      </div>
-    </header>
 
-    <main>
-      <div class="container top_section">
-        <div class="row">
-          <div class="col-lg-12 col-sm-12 col-xs-12 text-center"></div>
-          <div class="col-lg-4 col-sm-4 col-xs-12"></div>
-          <div class="col-lg-4 col-sm-4 col-xs-12">
-            <div class="row">
+          <div class="container-fluid bottom_section">
+            <div class="row top_bs">
+              <div class="col-lg-12 col-sm-12 col-xs-12 text-center"></div>
+              <div class="col-lg-6 col-sm-12 col-xs-12"></div>
+              <div class="col-lg-6 col-sm-12 col-xs-12"></div>
+            </div>
+            <div class="row bottom_bs text-center">
+              <div class="col-lg-12 col-sm-12 col-xs-12"></div>
               <div class="col-lg-12 col-sm-12 col-xs-12"></div>
               <div class="col-lg-12 col-sm-12 col-xs-12"></div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-4 col-xs-12">
-            <div class="row">
+        </main>
+
+        <footer>
+          <div class="container-fluid">
+            <div class="row top_footer text-center">
               <div class="col-lg-12 col-sm-12 col-xs-12"></div>
               <div class="col-lg-12 col-sm-12 col-xs-12"></div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container center_section">
-        <div class="row top_cs text-center">
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-        </div>
-        <div class="row bottom_cs">
-          <div class="col-lg-12 col-sm-12 col-xs-12 text-center"></div>
-          <div class="col-lg-4 col-sm-4 col-xs-12"></div>
-          <div class="col-lg-4 col-sm-4 col-xs-12"></div>
-          <div class="col-lg-4 col-sm-4 col-xs-12"></div>
-        </div>
-      </div>
-
-      <div class="container bottom_section">
-        <div class="row top_bs">
-          <div class="col-lg-12 col-sm-12 col-xs-12 text-center"></div>
-          <div class="col-lg-6 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-6 col-sm-12 col-xs-12"></div>
-        </div>
-        <div class="row bottom_bs text-center">
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="row top_footer text-center">
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-12 col-sm-12 col-xs-12"></div>
-        </div>
-        <div class="row bottom_footer">
-          <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-          <div class="col-xs-9">
-            <div class="row">
-              <div class="col-xs-3 col-sm-6 col-xs-12"></div>
-              <div class="col-xs-3 col-sm-6 col-xs-12"></div>
-              <div class="col-xs-3 col-sm-6 col-xs-12"></div>
-              <div class="col-xs-3 col-sm-6 col-xs-12"></div>
+            <div class="row bottom_footer">
+              <div class="col-lg-3 col-sm-12 col-xs-12"></div>
+              <div class="col-xs-9">
+                <div class="row">
+                  <div class="col-xs-3 col-sm-6 col-xs-12"></div>
+                  <div class="col-xs-3 col-sm-6 col-xs-12"></div>
+                  <div class="col-xs-3 col-sm-6 col-xs-12"></div>
+                  <div class="col-xs-3 col-sm-6 col-xs-12"></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="helper_fixed"></div>
+        </footer>
       </div>
-      <div class="helper_fixed"></div>
-    </footer>
+    </div>
   </body>
 </html>

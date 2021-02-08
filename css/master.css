@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h1_ {
+  font-size: 4vw;
+  color: white;
+}
+.h3_ {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+.h4_ {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.blue_ {
+  color: blue;
+}
+
+.p_ {
+  font-size: 1.25vw;
+  color: gray;
+}
+
+.header_fixed {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  padding: 10px 0;
+  background-color: white;
+  z-index: 3;
+}
+
+.logo_ img {
+  width: 100%;
+}
+.links_hf {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.links_hf li {
+  display: inline-block;
+  list-style: none;
+  font-size: 0.85vw;
+  font-weight: 600;
+  margin: 0 5px;
+}
+.links_hf li a {
+  text-decoration: none;
+  color: black;
+}
+.f_r_ {
+  float: right;
+}
+.f_r_ .links_hf {
+  margin-top: 5px;
+}
+.btn_hf {
+  background-color: white;
+  color: #1dacff;
+  border: 2px solid #1dacff;
+  padding: 2.5px;
+  font-size: 0.75vw;
+  padding: 5px;
+  border-radius: 5px;
+}
+.hamburger ul {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.hamburger li{
+list-style: none;
+background-color: #1dacff;
+border-radius: 2px;
+height: 0.75vh;
+margin: 1vh 0;
+min-width: 15px;
+max-width: 30px;
+}
+.display_allowed .hamburger {
+  display: block;
+}
+.display_none {
+  display: none;
+}
+
+.top_j {
+  margin-top: 50px;
+  padding: 30px 0;
+  background-color: darkblue;
+}
+.sign_up {
+  padding: 10px 20px;
+  width: 90%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.button_su_one {
+  padding: 2px 0;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+.button_su_two {
+  margin: 10px 0;
+  padding: 2px 0;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 2px grey;
+}
+.button_su_two img {
+  width: 10%;
+  max-width: 20px;
+  float: left;
+}
+.button_su_two span {
+  margin: 0 5% 0 0;
+}
+
+.bottom_j {
+  background-color: #f8f8f8;
+}
+.margin_top {
+  margin-top: 50px;
+}
+.margin_bottom {
+  margin-bottom: 50px;
+}
+.logos_ {
+  margin: 25px 0;
+}
+.logos_ [class*="col-"] img {
+  width: 100%;
+  margin: 25px 0;
+}
+.link_to_ {
+  text-decoration: none;
+  color: #1dacff;
+  font-size: 1.5vw;
+}
+
+.top_section {
+  padding: 50px 0;
+}
+.list_ {
+  border-left: 2px solid lightgray;
+  margin-bottom: 25px;
+}
+.fix_ img {
+  width: 10%;
+}
+
+.top_cs {
+  background-color: #f8f8f8;
+}
+.fix_two {
+  margin: 0 10px;
+  font-size: 2vw;
+}
+.screenshot_ img {
+  width: 50%;
+}
+.gray_ {
+  color: gray;
+}
+.color_ {
+  color: #1dacff;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .display_allowed {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .margin_media {
+    margin: 50px 0 25px 0;
+  }
+}
