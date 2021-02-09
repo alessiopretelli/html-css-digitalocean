@@ -10,6 +10,7 @@ body {
 
 .h1_ {
   font-size: 4vw;
+  font-weight: 700;
   color: white;
 }
 .h3_ {
@@ -19,16 +20,28 @@ body {
   font-weight: 600;
 }
 .h4_ {
+  font-size: 1.75vw;
+  font-weight: 700;
+}
+.h5_ {
   font-size: 1.5vw;
   font-weight: 700;
 }
+.h6_ {
+  font-size: 1.25vw;
+  font-weight: 700;
+}
 .blue_ {
-  color: blue;
+  color: #1dacff;
 }
 
 .p_ {
-  font-size: 1.25vw;
-  color: gray;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #c9c4c4;
+}
+.fix_three p {
+  font-size: 1vw;
 }
 
 .header_fixed {
@@ -96,19 +109,21 @@ max-width: 30px;
 .top_j {
   margin-top: 50px;
   padding: 30px 0;
-  background-color: darkblue;
+  background-image: url(../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: cover;
 }
 .sign_up {
   padding: 10px 20px;
   width: 90%;
-  margin: 50px auto;
+  margin: 30px auto;
+  max-width: 600px;
   background-color: white;
   border-radius: 5px;
 }
 .button_su_one {
   padding: 2px 0;
   border-radius: 5px;
-  background-color: blue;
+  background-color: #4682f0;
   color: white;
 }
 .button_su_two {
@@ -158,6 +173,7 @@ max-width: 30px;
 }
 .fix_ img {
   width: 10%;
+  max-width: 35px;
 }
 
 .top_cs {
@@ -177,6 +193,63 @@ max-width: 30px;
   color: #1dacff;
 }
 
+.top_bs {
+  background: linear-gradient(#6969d3, #1919bc);
+  padding: 25px 0;
+}
+.white_ {
+  color: white;
+}
+.test_speed_line hr {
+  margin: 0;
+}
+.p_tsl_one {
+  display: inline-block;
+  font-size: 1vw;
+  color: white;
+  margin-bottom: 5px 0;
+}
+.p_tsl_two {
+  display: inline-block;
+  margin-left: 20px;
+  color: lightgray;
+  font-size: 1vw;
+  margin: 5px 20px;
+}
+.a_tsl {
+  float: right;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #1dacff;
+  margin: 5px 5px;
+}
+
+.bottom_bs {
+  background-color: #f8f8f8;
+}
+.rocker_box {
+  display: inline-block;
+  width: 50%;
+  background-color: white;
+  padding: 50px 0;
+}
+.rocker_box img {
+  width: 40%;
+}
+.fix_four {
+  margin: auto 0;
+  font-size: 2vw;
+}
+.p_spec {
+  font-size: 1vw;
+  color: black;
+}
+
+.top_footer {
+  background: linear-gradient(#6969d3, #1919bc);
+  padding: 25px 0;
+}
+
 @media screen and (min-width: 1200px) {
 
   .display_allowed {
@@ -186,10 +259,21 @@ max-width: 30px;
   .hamburger {
     display: none;
   }
+
+  .margin_left {
+    margin-left: 50px;
+  }
+
+  .margin_media_two {
+    margin: 0 25px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
   .margin_media {
     margin: 50px 0 25px 0;
+  }
+  .margin_media_three {
+    margin-top: 25px;
   }
 }
