@@ -37,7 +37,7 @@ body {
 
 .p_ {
   font-size: 1.5vw;
-  font-weight: 500;
+  font-weight: 400;
   color: #c9c4c4;
 }
 .fix_three p {
@@ -52,19 +52,21 @@ body {
   z-index: 3;
   border-bottom: 2px solid #c9c4c4;
 }
+.logo_ {
+  line-height: 45px;
+}
 .logo_ img {
   width: 100%;
 }
 .links_hf {
-  margin-top: 10px;
-  margin-bottom: 0px;
+  line-height: 55px;
 }
 .links_hf li {
-  display: inline-block;
+  margin: 0 5px;
+  display: inline;
   list-style: none;
   font-size: 0.85vw;
-  font-weight: 600;
-  margin: 0 5px;
+  font-weight: 500;
 }
 .links_hf li a {
   text-decoration: none;
@@ -73,10 +75,8 @@ body {
 .f_r_ {
   float: right;
 }
-.f_r_ .links_hf {
-  margin-top: 5px;
-}
 .btn_hf {
+  display: inline;
   background-color: white;
   color: #1dacff;
   border: 2px solid #1dacff;
@@ -84,21 +84,17 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-.hamburger ul {
-  margin-top: 5px;
-  margin-bottom: 0;
+.hamburger {
+  line-height: 55px;
 }
 .hamburger li{
 list-style: none;
 background-color: #1dacff;
 border-radius: 2px;
-height: 0.75vh;
-margin: 1vh 0;
+height: 5px;
+margin: 5px 0;
 min-width: 20px;
 max-width: 30px;
-}
-.display_allowed .hamburger {
-  display: block;
 }
 .display_none {
   display: none;
@@ -108,7 +104,7 @@ max-width: 30px;
   margin: auto 30px
 }
 .top_j {
-  margin-top: 50px;
+  margin-top: 60px;
   padding: 60px 0;
   background-image: url(../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
@@ -300,12 +296,13 @@ max-width: 30px;
   border-radius: 5px;
   padding: 5px;
   margin: 30px;
-  border: 2px solid #c9c4c4;
+  border: 1px solid #c9c4c4;
+  box-shadow: 1px 1px #c9c4c4;
 }
 .helper_fixed p {
-  color: darkblue;
+  color: black;
   font-size: 1vw;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 @media screen and (min-width: 1200px) {
@@ -342,5 +339,9 @@ max-width: 30px;
 
   .rocker_box {
     padding: 10px 0;
+  }
+
+  .sign_up .h4_ {
+    font-size: 3vw;
   }
 }
