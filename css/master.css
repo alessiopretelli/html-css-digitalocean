@@ -46,6 +46,7 @@ body {
 .header_fixed {
   position: fixed;
   top: 0;
+  height: 75px;
   width: 100%;
   padding: 10px 0;
   background-color: white;
@@ -84,8 +85,15 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-.hamburger {
-  line-height: 55px;
+.center_ {
+  line-height: 55px; 
+  height: 75px;
+  text-align: center;
+}
+.center_ .hamburger {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 .hamburger li{
 list-style: none;
@@ -94,9 +102,12 @@ border-radius: 2px;
 height: 5px;
 margin: 5px 0;
 min-width: 20px;
-max-width: 30px;
+max-width: 40px;
 }
 .display_none {
+  display: none;
+}
+.display_none_hamburger {
   display: none;
 }
 
@@ -331,6 +342,10 @@ max-width: 30px;
 
   .margin_media_three {
     margin-top: 25px;
+  }
+
+  .display_allowed_hamburger {
+    display: block;
   }
 
   .helper_fixed {
